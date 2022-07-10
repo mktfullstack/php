@@ -1,0 +1,62 @@
+@media (max-width: 1679px) {
+  /* Elementor */
+  /* Allert box */
+  .newsletter .elementor-alert::before {
+    line-height: 1em; }
+  /* Title */
+  .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+    font-size: 45px;
+    line-height: 1.111em;
+    letter-spacing: -0.02em; }
+  /* Spacer */
+  .elementor-widget-spacer.sc_height_small + .elementor-widget-divider + .elementor-widget-spacer.sc_height_medium .elementor-spacer-inner {
+    height: calc( var(--theme-var-sm_grid_gap) + ( var(--theme-var-grid_gap_koef) * 8px )) !important; } }
+
+@media (max-width: 1439px) {
+  /* Elementor */
+  /* Allert box */
+  .elementor-alert .elementor-alert-description {
+    font-size: 15px; }
+  /* Image box */
+  .elementor-image-box-wrapper .elementor-image-box-title,
+  .elementor-icon-box-wrapper .elementor-icon-box-title {
+    font-size: 14px; }
+  /* Title */
+  .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+    font-size: 38px; }
+  .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+    font-size: 17px;
+    line-height: 24px; }
+  /* Spacer */
+  div.elementor-widget-spacer.sc_height_ginormous .elementor-spacer-inner {
+    height: calc( 2 * var(--theme-var-grid_gap)) !important; } }
+
+@media (max-width: 1279px) {
+  /* Elementor */
+  /* Title */
+  .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+    font-size: 15px; }
+  .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+    font-size: 15px; } }
+
+@media (max-width: 1023px) {
+  /* Elementor */
+  /* Title */
+  .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+    font-size: 35px; } }
+
+@media (max-width: 767px) {
+  /* Elementor */
+  :root {
+    --theme-var-elm_gap_narrow: 8px;
+    --theme-var-elm_gap_default: 10px;
+    --theme-var-elm_gap_extended: var(--theme-var-grid_gap);
+    --theme-var-elm_gap_wide: 30px;
+    --theme-var-elm_gap_wider: 40px;
+    --theme-var-elm_add_page_margins: var( --theme-var-elm_gap_extended ); } }
+
+@media (max-width: 479px) {
+  /* Elementor */
+  /* Title */
+  .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+    font-size: 28px; } }

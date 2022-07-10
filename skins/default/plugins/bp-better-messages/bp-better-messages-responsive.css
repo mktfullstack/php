@@ -1,0 +1,65 @@
+@media (max-width: 1679px) {
+  /* Better Messages */
+  /* Chat  */
+  .bp-messages .bp-messages-wrap .bulk-message .reports .reports-list {
+    font-size: 13px;
+    line-height: 1.6em; } }
+
+@media (max-width: 767px) {
+  /* Better Messages */
+  /* Threads list */
+  .bp-messages .bp-messages-wrap .threads-list .thread .info > h4:not(.name) {
+    font-size: 14px;
+    line-height: 1.6em; }
+  /* Bulk message */
+  .bp-messages .bp-messages-wrap .bulk-message .reports {
+    padding-bottom: 15px; }
+    .bp-messages .bp-messages-wrap .bulk-message .reports .reports-list {
+      width: 700px !important; } }
+
+@media (max-width: 600px) {
+  /* Better Messages */
+  /* Chat */
+  .bp-messages-wrap .list .messages-stack .content .messages-list > li {
+    padding-right: 30px; } }
+
+@media (max-width: 479px) {
+  /* Better Messages */
+  /* Threads list */
+  .bp-messages .bp-messages-wrap .threads-list .thread {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .bp-messages .bp-messages-wrap .threads-list .thread .pic {
+      width: 50px;
+      padding-bottom: 0; }
+      .bp-messages .bp-messages-wrap .threads-list .thread .pic img {
+        min-height: unset;
+        min-width: unset;
+        height: 50px;
+        width: 50px; }
+    .bp-messages .bp-messages-wrap .threads-list .thread .pic.group > * {
+      width: 24px !important;
+      height: 24px !important; }
+    .bp-messages .bp-messages-wrap .threads-list .thread .info {
+      width: calc(100% - 83px);
+      padding-bottom: 0; }
+    .bp-messages .bp-messages-wrap .threads-list .thread .time {
+      width: 100%;
+      padding-top: 3px;
+      padding-left: 73px;
+      text-align: left; }
+      .bp-messages .bp-messages-wrap .threads-list .thread .time .delete {
+        top: 3px; }
+  /* Emoji */
+  .bp-emojionearea .bp-emojionearea-picker,
+  .bp-emojionearea .bp-emojionearea-picker .bp-emojionearea-wrapper {
+    width: 270px; }
+  .bp-emojionearea .bp-emojionearea-picker.bp-emojionearea-picker-position-top {
+    right: -66px !important; }
+    .bp-emojionearea .bp-emojionearea-picker.bp-emojionearea-picker-position-top .bp-emojionearea-filters {
+      overflow: hidden; }
+  .bp-emojionearea .bp-emojionearea-picker .bp-emojionearea-search {
+    display: none; } }

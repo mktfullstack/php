@@ -1,0 +1,9 @@
+@import "../../../css/_mixins.scss";
+@import "../../../css/_theme-vars.scss";
+@import "_skin-vars.scss";
+
+
+.anesta_scheme_editor_header_cell:first-child, 
+.anesta_scheme_editor_row_cell:first-child {
+  min-width: 145px;
+}
